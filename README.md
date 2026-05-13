@@ -23,7 +23,7 @@ Cross-validation<br>
 The question I was most interested in wasn't just "what predicts a high score" it was whether IMDB scores actually reflect quality or just exposure. Because if a film's rating is mostly driven by how many people voted on it, then the score is measuring popularity, not quality. And those are very different things.
 So I split every film into four categories based on score and vote count: underrated, overrated, popular and great, and neither. The results are more interesting than I expected.<br>
 ![Underrated vs Overrated](chart1_underrated_overrated.png)
-Pre-1970 classics sit almost entirely in the underrated quadrant — scores as high as anything modern, with a fraction of the votes. The model also struggled the most with these films, which makes sense. Their ratings can't be explained by runtime, genre, or box office numbers. Something else is carrying them and it doesn't fit in a spreadsheet.
+Pre-1970 classics sit almost entirely in the underrated category, scores as high as anything modern, with a fraction of the votes. The model also struggled the most with these films, which makes sense. Their ratings can't be explained by runtime, genre, or box office numbers. Something else is carrying them and it doesn't fit in a spreadsheet.
 
 
 ## What i used
